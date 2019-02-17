@@ -1,0 +1,14 @@
+syms x;
+ x=-10:-5;
+f=2+sin(x);
+ plot(x,f)
+hold on
+
+x=-5:-2;
+ f1=exp(x);
+ plot(x,f1)
+ 
+ x=2:10;
+ f2=log(x.^2+1);
+ plot(x,f2)
+ hold off
